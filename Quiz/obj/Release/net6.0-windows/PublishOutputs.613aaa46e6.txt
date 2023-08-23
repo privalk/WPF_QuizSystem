@@ -1,0 +1,9 @@
+C:\Users\29186\Desktop\新建文件夹\Quiz.exe
+C:\Users\29186\Desktop\新建文件夹\Resource\BGM.mp3
+C:\Users\29186\Desktop\新建文件夹\Resource\失败.mp3
+C:\Users\29186\Desktop\新建文件夹\Resource\胜利.mp3
+C:\Users\29186\Desktop\新建文件夹\Quiz.dll
+C:\Users\29186\Desktop\新建文件夹\Quiz.deps.json
+C:\Users\29186\Desktop\新建文件夹\Quiz.runtimeconfig.json
+C:\Users\29186\Desktop\新建文件夹\Quiz.pdb
+C:\Users\29186\Desktop\新建文件夹\HandyControl.dll

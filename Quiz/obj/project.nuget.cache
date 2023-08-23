@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l4F/ds4JyR5BnJ67FVajAkVjXm4CJx9i+v/RA4kGcsw80S2SbPebczCb04HewdYWiRbLxmxwFxQlJEDAh5ZXsQ==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\WPF\\Quiz\\Quiz\\Quiz.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29186\\.nuget\\packages\\handycontrol\\3.4.0\\handycontrol.3.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

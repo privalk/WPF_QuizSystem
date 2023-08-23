@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Quiz</id>
+    <version>1.0.0</version>
+    <authors>Quiz</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="HandyControl" version="3.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Code\WPF\Quiz\Quiz\bin\Debug\net6.0-windows\Quiz.runtimeconfig.json" target="lib\net6.0-windows7.0\Quiz.runtimeconfig.json" />
+    <file src="D:\Code\WPF\Quiz\Quiz\bin\Debug\net6.0-windows\Quiz.dll" target="lib\net6.0-windows7.0\Quiz.dll" />
+  </files>
+</package>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jH4ZntDTEWrO8pGi/CJSNLJhd+gLycoKRdNxk5HSUnL6o8usaxxiYRYQFJLouYLPPrqFbK/lov3+3J3nPeUCUw==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\WPF\\Quiz\\Quiz\\Quiz.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29186\\.nuget\\packages\\handycontrol\\3.4.0\\handycontrol.3.4.0.nupkg.sha512",
+    "C:\\Users\\29186\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.21\\microsoft.netcore.app.runtime.win-x64.6.0.21.nupkg.sha512",
+    "C:\\Users\\29186\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.21\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.21.nupkg.sha512",
+    "C:\\Users\\29186\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.21\\microsoft.aspnetcore.app.runtime.win-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

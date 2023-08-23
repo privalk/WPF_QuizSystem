@@ -1,0 +1,140 @@
+﻿<Window x:Class="Quiz.Quiz2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:local="clr-namespace:Quiz"
+        mc:Ignorable="d"
+        Title="Quiz1" Height="450" Width="800">
+    <Grid>
+        <TabControl x:Name="quizTabControl" TabStripPlacement="Top" Background="Transparent">
+            <TabItem Header=" 1">
+                <Grid>
+                    <TextBlock Text="此为第二套卷，题略" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <RadioButton x:Name="R1_1" Content="A.选我" Margin="-300,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R1_2" Content="B.选A" Margin="-100,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R1_3" Content="C.B是错的" Margin="100,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R1_4" Content="D.C说的不对" Margin="300,0,0,0"  HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="Ans1" Text="答案A" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV1"/>
+                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="2">
+                <Grid>
+                    <TextBlock Text="将变量从字符串类型转换为数值类型可以使用的类型转换方法是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <RadioButton x:Name="R2_1" Content="A.Str()" Margin="-300,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R2_2" Content="B.Cchar()" Margin="-100,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R2_3" Content="B.Cstr()" Margin="100,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R2_4" Content="D.int.Parse()" Margin="300,0,0,0"  HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="Ans2" Text="答案D" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="3">
+                <Grid>
+                    <TextBlock Text="用于数据类型转换的类是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <RadioButton x:Name="R3_1" Content="A.Mod" Margin="-300,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R3_2" Content="B.Convert" Margin="-100,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R3_3" Content="B.Const" Margin="100,0,0,0"  HorizontalAlignment="Center"/>
+                    <RadioButton x:Name="R3_4" Content="D.Sinle" Margin="300,0,0,0"  HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="Ans3" Text="答案B" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV3"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="4">
+                <Grid>
+                    <TextBlock Text="以下说法正确的是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <StackPanel HorizontalAlignment="Center"  Orientation="Horizontal">
+                        <RadioButton x:Name="R4_1" Content="A. 接口可以实例化" Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                        <RadioButton x:Name="R4_2" Content="B. 类只能实现一个接口" Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                        <RadioButton x:Name="R4_3" Content="C. 接口的成员都必须是未实现的" Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                        <RadioButton x:Name="R4_4" Content="D. 接口的成员前面可以加访问修饰符" Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                    </StackPanel>
+                    <TextBlock x:Name="Ans4" Text="答案C" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV4"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="5">
+                <Grid>
+                    <TextBlock Text="下列关于抽象类的说法错误的是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <StackPanel HorizontalAlignment="Center"  Orientation="Horizontal">
+                        <RadioButton x:Name="R5_1" Content="A. 抽象类可以实例化" Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                        <RadioButton x:Name="R5_2" Content="B. 抽象类可以包含抽象方法" Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                        <RadioButton x:Name="R5_3" Content="C. 抽象类可以包含抽象属性" Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                        <RadioButton x:Name="R5_4" Content="D. 抽象类可以引用派生类的实例 " Margin="10,0,0,0"  HorizontalAlignment="Center"/>
+                    </StackPanel>
+                    <TextBlock x:Name="Ans5" Text="答案A" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV5"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="6">
+                <Grid>
+                    <TextBlock Text="下列关于重载的说法，错误的是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <UniformGrid Columns="2" HorizontalAlignment="Center" Margin="0,150,0,150" >
+                        <RadioButton x:Name="R6_1" Content="A. 方法可以通过指定不同的参数个数重载" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R6_2" Content="B. 方法可以通过指定不同的参数类型重载 " Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R6_3" Content="C. 方法可以通过指定不同的参数传递方式重载" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R6_4" Content="D. 方法可以通过指定不同的返回值类型重载" Margin="10"  HorizontalAlignment="Left"/>
+                    </UniformGrid>
+                    <TextBlock x:Name="Ans6" Text="答案D" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV6"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="7">
+                <Grid>
+                    <TextBlock Text="关于虚方法实现多态，下列说法错误的是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <UniformGrid Columns="2" HorizontalAlignment="Center" Margin="0,150,0,150" >
+                        <RadioButton x:Name="R7_1" Content="A. 定义虚方法使用关键字virtual" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R7_2" Content="B. 关键字virtual可以与override一起使用 " Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R7_3" Content="C. 虚方法是实现多态的一种应用形式" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R7_4" Content="D. 派生类是实现多态的一种应用形式" Margin="10"  HorizontalAlignment="Left"/>
+                    </UniformGrid>
+                    <TextBlock x:Name="Ans7" Text="答案B" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV7"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="8">
+                <Grid>
+                    <TextBlock Text="下列说法中，正确的是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <UniformGrid Columns="2" HorizontalAlignment="Center" Margin="0,150,0,150" >
+                        <RadioButton x:Name="R8_1" Content="A. 派生类对象可以强制转换为基类对象 " Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R8_2" Content="B. 在任何情况下，基类对象都不能转换为派生类对象 " Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R8_3" Content="C. 接口不可以实例化，也不可以引用实现该接口的类的对象" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R8_4" Content="D. 基类对象可以访问派生类的成员 " Margin="10"  HorizontalAlignment="Left"/>
+                    </UniformGrid>
+                    <TextBlock x:Name="Ans8" Text="答案A" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV8"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="9">
+                <Grid>
+                    <TextBlock Text="以下关于继承的说法错误的是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <UniformGrid Columns="2" HorizontalAlignment="Center" Margin="0,150,0,150" >
+                        <RadioButton x:Name="R9_1" Content="A. .NET框架类库中，object类是所有类的基类" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R9_2" Content="B. 派生类不能直接访问基类的私有成员  " Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R9_3" Content="C. protected修饰符既有公有成员的特点，又有私有成员的特点" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R9_4" Content="D. 基类对象不能引用派生类对象" Margin="10"  HorizontalAlignment="Left"/>
+                    </UniformGrid>
+                    <TextBlock x:Name="Ans9" Text="答案D" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV9"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="10">
+                <Grid>
+                    <TextBlock Text="把字符串strA中的字符’f’，都替换成’F’,正确的代码是" HorizontalAlignment="Center" FontSize="20" Margin="0,100,0,0" />
+                    <UniformGrid Columns="2" HorizontalAlignment="Center" Margin="0,150,0,150" >
+                        <RadioButton x:Name="R10_1" Content="A. string.replace(‘f’,’F’);" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R10_2" Content="B. strA.replace(‘f’,’F’); " Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R10_3" Content="C. strA.Replace(‘f’,’F’);" Margin="10"  HorizontalAlignment="Left"/>
+                        <RadioButton x:Name="R10_4" Content="D. strA.Replace(‘f’,’F’);" Margin="10"  HorizontalAlignment="Left"/>
+                    </UniformGrid>
+                    <TextBlock x:Name="Ans10" Text="答案C" HorizontalAlignment="Center" FontSize="12" Margin="0,250,0,0"  Visibility="Hidden"/>
+                    <Button Content="显示答案" HorizontalAlignment="Center" Margin="0,200,0,0"  Click="AnsV10"/>
+                    <Button Content="提交" HorizontalAlignment="Center" Click="Button_Click"  Margin="0,300,0,0"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
